@@ -1,0 +1,232 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color:black;
+}
+
+header{
+    display:flex;
+    flex-direction:row;
+}
+
+h1{
+    color:#D3442C;
+    margin:1rem;
+    font-size:3rem;
+    font-family: 'Are You Serious', cursive;
+}
+span{
+    color:#2CBBD3;
+    font-family: 'Are You Serious', cursive;
+}
+
+form{
+    margin-top:7rem;
+    color:white;
+    font-size:3rem;
+}
+input{
+    margin:2rem;
+    font-size:3.0rem;
+    color:black;
+    padding:3px;
+    border-radius:8px;
+    cursor:pointer;
+    
+}
+
+.submit
+{
+    font-size:2.4rem;
+    border-radius:10px;
+    cursor:pointer;
+    background-color: #b51212;
+    color:white;
+    padding:3px;
+    border-style:solid #D3442C;
+}
+
+
+
+.deleteAll{
+    margin-left:3rem;
+    padding:16px;
+    border-radius:50px;
+    color:white;
+    cursor:pointer;
+    background-color: #b51212;
+}
+.deleteAll:hover{
+    background-color:#D3442C;
+}
+
+
+.search-list{
+    display:flex;
+    flex-direction:column;
+    margin-left:14%;
+}
+
+.suggestion{
+   display:flex;
+   flex-direction:row;
+   align-items:center;
+   width:25vw;
+   margin-top:0.3rem;
+   margin-bottom:0.3rem;
+   margin-left:-14vw;
+   background: rgb(128, 128, 128,0.8);
+   border-radius:8px;
+   padding:0.3rem;
+}
+
+.suggestion:hover{
+    background-color:grey;
+}
+
+.title{
+    background-color:#69a2ac;
+    color:black;
+    border-radius:10px;
+    font-size: 3rem;
+    margin-top:1rem;
+    margin-bottom:1rem;
+
+}
+
+.year,.genre,.writer,.actors,.plot,.language,.awards{
+    margin:0.5rem;
+}
+
+
+.search-image{
+    width:2vw;
+}
+.search-info {
+    margin:1rem;
+    color:rgba(255, 255, 255, 0.801);
+}
+.fav-info{
+    margin:1rem;
+    color:rgba(255, 255, 255, 0.801);
+}
+.search-area{
+    display:flex;
+    background: rgba(94, 93, 92, 0.3);
+    flex-direction:column;
+    align-items:center;
+    border-radius:3rem;
+}
+
+.container{
+    display:flex;
+    flex-direction:row;
+    color: white;
+}
+.poster{
+    width:50%;
+}
+
+.image-container{
+    min-width:50%;
+    margin-left:25rem;
+    margin-top:5rem;
+    margin-bottom:5rem;
+}
+.image-container,.info-container{
+    max-width:50%;
+}
+
+.info-container{
+    max-width:50%;
+    margin-right:25rem;
+    margin-top:5rem;
+    margin-bottom:5rem;
+    margin-left:-30%;
+
+}
+.poster{
+    border-radius:20px;
+    width:15vw;
+    border-color:white;
+}
+.like{
+    display:block;
+    color:rgb(167, 13, 13);
+    font-size:1.5rem;
+    padding:0.3rem;
+    margin-top:1rem;
+    background:none;
+    border-style:none;
+    cursor:pointer;
+    border-radius:50px;
+}
+section{
+    background-color: #FFD700;
+    max-width:5%;
+    color:black;
+    border-radius: 3px;
+    padding:3px;
+}
+
+.fav-container{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin-left:14%;
+}
+
+
+
+.fav-element{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    width:25vw;
+    margin-top:0.3rem;
+    margin-bottom:0.3rem;
+    margin-left:-14vw;
+    background: rgb(128, 128, 128,0.8);
+    border-radius:8px;
+    padding:0.3rem;
+    cursor:pointer;
+ }
+
+ .fav-element:hover{
+    background-color:grey;
+}
+
+
+.fav-element img{
+    width:5vw;
+    border-radius:10px;
+    position:relative;
+}
+
+
+.hide-list{
+    display:none;
+}
+
+.like:hover{
+    color:green;
+}
+
+.fa-solid{
+    pointer-events:none;
+}
+
+.fav-heading{
+    margin-top:2rem;
+    text-align: center;
+}
+
+.fav-element div h2{
+    color:white;
+}
