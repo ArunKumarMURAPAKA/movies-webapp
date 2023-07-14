@@ -25,12 +25,6 @@ const delAll=document.querySelector(".deleteAll");
 if (localStorage.getItem("favouritesList") == null) {
     localStorage.setItem("favouritesList", JSON.stringify([]));
 }
-// else {
-//     favouriteArray = JSON.parse(localStorage.getItem("favouriteList"));
-//   }
-
-
-
 
 //FETCHING MOVIES FORM THE API
 
