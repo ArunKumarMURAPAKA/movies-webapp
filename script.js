@@ -38,7 +38,7 @@ async function fetchList(searchTerm){
     }
 }
 
-//for getting the dyamically updated array of search suggestions.
+//code to hide the search list at times, inorder the enchance the user experience.
 
 function movieSuggestions(){
     let searchTerm=(searchMovie.value).trim() ;
